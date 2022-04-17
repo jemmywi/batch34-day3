@@ -17,7 +17,7 @@ function showData() {
 
     let a = document.createElement('a')
     a.href = `mailto:${emailReceiver}?subject=${subject}&body=Hello, my name is ${name}, ${subject}, ${message}.`
-    a.click()
+   // a.click()
 
     let dataObject = {
         dataName: name,
